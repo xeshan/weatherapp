@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+	<meta charset=“UTF-8”>
+	<title>WeatherApp</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+</head>
+<body>
+	<div align="center">
+		<h2>Enter the list of integers and target number e.g.   1, 2, 3, 4, 5 and 9</h2>
+		<form action="" method="get">
+			<input type="text" id="goal" name="goal" placeholder="Enter A Target Number">
+			<input type="text" id="seq" name="seq" placeholder="Enter list without Parentheses">
+			
+			<input type="submit" name="send" value="submit">
+		</form>
+		{% if goal %}
+			<p>
+			<div>Target: {{goal}} </div>
+			<div>Entered List: {{seq}} </div>	
+			<div>Result: {{result}} </div>
+			</p>
+		{% endif %}
+	</div>
+</body>
+</html>
+
