@@ -10,7 +10,7 @@ How to use or install this app on your computer?
 pip install -r requirements.txt
 ```
 
-### 2.  After install all the requirement.txt extract the project and open the project, type this on your terminal 
+### 2. After install all the requirement.txt extract the project and open the project, type this on your terminal 
 ```python
 python manage.py makemigrations
 python manage.py migrate
